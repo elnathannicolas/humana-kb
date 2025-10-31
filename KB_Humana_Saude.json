@@ -1,0 +1,820 @@
+{
+  "messages": [
+    {
+      "id": "msg_planos_diferencas",
+      "category": "FAQ",
+      "title": "Diferença entre planos (PF, PJ, Adesão)",
+      "language": "pt-BR",
+      "body_markdown": "*Veja a diferença entre os planos, as opções que existem e qual se encaixa melhor no teu perfil e orçamento:*\n\n🔹 **Plano Pessoa Física (Individual ou Familiar)**  \nFeito direto com a operadora (no CPF).  \n**Reajuste:** definido pela ANS.  \n**Vantagem:** estabilidade de preço e mais proteção ao cliente.\n\n🔹 **Plano Pessoa Jurídica (Empresarial)**  \nFeito com CNPJ ou MEI (pode incluir 1 vida ou mais).  \n**Reajuste:** por sinistralidade do grupo.  \n**Vantagem:** preço mais competitivo, mais opções, e pode ter **carência zero** conforme a quantidade de vidas.\n\n🔹 **Plano Coletivo por Adesão**  \nVinculado a entidade de classe/conselho/sindicato/associação.  \n**Reajuste:** pela administradora, conforme uso do conjunto.  \n**Vantagem:** costuma ser mais acessível que o individual.\n\n✨ Cada tipo tem um perfil ideal. Posso analisar seu momento e orçamento e indicar as melhores opções.",
+      "variables": [],
+      "triggers": [
+        "diferença plano",
+        "PF x PJ",
+        "adesão",
+        "qual melhor plano",
+        "individual ou empresarial"
+      ],
+      "last_updated": "2025-10-31"
+    },
+    {
+      "id": "msg_coparticipacao",
+      "category": "FAQ",
+      "title": "Explicação sobre coparticipação (Básica x Completa)",
+      "language": "pt-BR",
+      "body_markdown": "💡 **Plano com Coparticipação** = mensalidade menor + pequena taxa quando usar.\n\n**Coparticipação COMPLETA** (exemplos):  \n• R$ 20 por consulta  \n• R$ 40 em urgência/emergência  \n• até R$ 20 exames simples  \n• até R$ 70 exames de alta complexidade  \n👉 Para quem usa de forma moderada e quer cobertura completa (inclui internação/cirurgia exceto estética).\n\n**Coparticipação BÁSICA** (cobrança apenas em terapias contínuas):  \n• Psicologia, Fisioterapia, Fono, Nutrição → 40% do valor de custo (limitado a R$ 150/mês).  \nEx.: se a operadora paga R$ 50, você paga R$ 20.  \n👉 Para quem quer cobertura completa, com **menos cobranças** no dia a dia.\n\n🛡 Todos cobrem internações, cirurgias, exames e consultas com rede credenciada.  \n💰 Em média 30–40% mais baratos que planos sem coparticipação.",
+      "variables": [],
+      "triggers": [
+        "coparticipação",
+        "co-participação",
+        "básica",
+        "completa",
+        "como funciona a coparticipação"
+      ],
+      "last_updated": "2025-10-31"
+    },
+    {
+      "id": "msg_reajustes_2025",
+      "category": "FAQ",
+      "title": "Reajustes de Plano – 2025",
+      "language": "pt-BR",
+      "body_markdown": "**1) Reajuste Anual por contrato**  \n- **Pessoa Física (Individual/Familiar):** regulado pela ANS. *Em 2025: 6,91%.*  \n- **Pessoa Jurídica (Empresarial CNPJ/MEI):** definido pela operadora conforme uso e nº de vidas.  \n- **Coletivo por Adesão:** definido pela administradora e pode ser maior que o individual.\n\n**2) Reajuste por Faixa Etária**  \nOcorre ao mudar de faixa (ex.: 00–18 | 19–23 | … | 59+).  \n➡ Ex.: ao sair de 38→39 anos, aplica-se a tabela da nova faixa.\n\n💬 Precisa revisar seu contrato? Posso checar com você.",
+      "variables": [],
+      "triggers": [
+        "reajuste",
+        "reajustes 2025",
+        "quanto aumenta",
+        "ANS reajuste"
+      ],
+      "last_updated": "2025-10-31"
+    },
+    {
+      "id": "msg_carencias",
+      "category": "FAQ",
+      "title": "Carências padrão (após compensação do boleto de adesão)",
+      "language": "pt-BR",
+      "body_markdown": "**Carência** = tempo até liberar determinadas coberturas (definição ANS).\n\n**Padrões usuais:**  \n🔷 24h → urgência e emergência  \n🔷 30 dias → consultas, exames simples, procedimentos ambulatoriais básicos  \n🔷 180 dias → internação, cirurgias, exames especiais (imagem), psicologia/fono/fisio/terapias  \n🔷 300 dias → parto e assistência neonatal  \n🔷 24 meses → tratamento de **doenças preexistentes** (condições já existentes)\n\n*Observação: políticas podem variar por produto/operadora.*",
+      "variables": [],
+      "triggers": [
+        "carência",
+        "quando posso usar",
+        "liberação",
+        "parto carência",
+        "em quanto tempo uso"
+      ],
+      "last_updated": "2025-10-31"
+    },
+    {
+      "id": "msg_preexistencia",
+      "category": "FAQ",
+      "title": "Doenças preexistentes: quando contratar (ou não)",
+      "language": "pt-BR",
+      "body_markdown": "Se você já tem uma condição mais grave em curso, **o plano pode não ser a melhor solução imediata** porque:  \n- Há **carência de 24 meses** para cobrir preexistências.  \n- Planos com **coparticipação** tornam o custo alto se houver uso intenso.\n\nQuero te ajudar com transparência: posso avaliar cenários/alternativas e avisar se surgir alguma opção melhor para seu caso.",
+      "variables": [],
+      "triggers": [
+        "preexistente",
+        "doença preexistente",
+        "já tenho doença",
+        "cobre agora"
+      ],
+      "last_updated": "2025-10-31"
+    },
+    {
+      "id": "msg_plano_familiar",
+      "category": "FAQ",
+      "title": "Existe plano familiar?",
+      "language": "pt-BR",
+      "body_markdown": "Hoje, **“plano familiar”** é mais termo de marketing. Na prática:  \n- O que existe (disponível) são **empresariais (CNPJ/MEI)** e **coletivos por adesão**.  \n- Se você não tem CNPJ, o **coletivo por adesão** costuma ter **ótimo custo-benefício**.\n\nPara indicar a entidade correta, me diga sua **profissão/atividade**.",
+      "variables": [],
+      "triggers": [
+        "plano familiar",
+        "familiar existe",
+        "quero plano para família"
+      ],
+      "last_updated": "2025-10-31"
+    },
+    {
+      "id": "msg_cancelamento",
+      "category": "Processo",
+      "title": "Como cancelar o plano (Humana Saúde – Piauí)",
+      "language": "pt-BR",
+      "body_markdown": "**Resumo – Cancelamento (Piauí):**  \n1) Identifique o tipo (individual/familiar ou coletivo por adesão). O titular pode cancelar a qualquer momento.  \n2) Ligue **(86) 3221‑1000** e informe a intenção.  \n3) Formalize via **Fale Conosco** (digital) ou **carta escrita à mão**.  \n4) Se carta: inclua nome, CPF, nº do plano.  \n5) Via digital: use o formulário “Fale Conosco” → **Assunto: Cancelamento de Contrato**.  \n6) Aguarde **confirmação (efeito imediato)** e **guarde o protocolo**.  \n7) Regularize pendências financeiras (mensalidades/coparticipações até a data).\n\n**Importante**: é irrevogável com efeito imediato após recebimento. Em tratamento contínuo, podem existir exceções previstas pela ANS.",
+      "variables": [
+        "telefone_operadora",
+        "url_fale_conosco"
+      ],
+      "triggers": [
+        "cancelar plano",
+        "cancelamento",
+        "como cancela",
+        "rescisão"
+      ],
+      "last_updated": "2025-10-31"
+    },
+    {
+      "id": "msg_inclusao_bebe",
+      "category": "Processo",
+      "title": "Incluir bebê como dependente (aproveitando carências)",
+      "language": "pt-BR",
+      "body_markdown": "Para incluir o bebê e **aproveitar as carências**, envie e‑mail para **fidelizacao@humanasaude.com.br** com:\n\n**Documentos (fotos legíveis):**  \n• RG/CPF (mãe e bebê), carteirinhas do plano  \n• Certidão de nascimento do bebê  \n• Comprovante de endereço  \n• Carta de próprio punho: solicitando e **autorizando** a inclusão como dependente (cite tipo de plano e matrícula).\n\n👉 O ideal é **antes dos 30 dias de vida** para herdar a carência do titular.",
+      "variables": [],
+      "triggers": [
+        "incluir bebê",
+        "dependente recém-nascido",
+        "carência do bebê"
+      ],
+      "last_updated": "2025-10-31"
+    },
+    {
+      "id": "msg_contatos_oficiais",
+      "category": "Utilidade",
+      "title": "Canais oficiais e Guia Médico (Humana)",
+      "language": "pt-BR",
+      "body_markdown": "**Central Digital (atalhos):** linktr.ee/jordanmoura  \n\n**Site:** www2.humanasaude.com.br  \n**2ª via de boleto (WhatsApp 86 3221‑1000):** use o **CPF** do titular  \n**Guia Médico:** siga as instruções de busca ao abrir o link (plano, estado, cidade/especialidade).  \n**WhatsApp automático:** envie “Oi”, informe CPF e siga as instruções.  \n**Atendimento 24h:** (86) 3221‑1000 | 0800 721 2345  \n**Problemas com App/senha:** lojaapp@callcenterintegra.com.br | (86) 3221‑1000  \n**Sugestões/Reclamações:** faleconosco@humanasaude.com.br  \n**Renegociação:** (e‑mails/telefones listados)  \n**Ouvidoria:** 0800 722 8333",
+      "variables": [],
+      "triggers": [
+        "contato humana",
+        "guia médico",
+        "telefone humana",
+        "2ª via",
+        "ouvidoria"
+      ],
+      "last_updated": "2025-10-31"
+    },
+    {
+      "id": "msg_escassez",
+      "category": "Follow-up",
+      "title": "Última chance – Coletivo por Adesão (CNPJ/Profissão)",
+      "language": "pt-BR",
+      "body_markdown": "🚨 **ÚLTIMA CHANCE!** Tenho acesso temporário a um plano coletivo por adesão **que vai sair de linha**.  \nValor acessível + rede ampliada. Sem redução imediata de carência para 24h, mas com **excelente custo-benefício**.  \nVigência a partir do dia 01, vencimento dia 15.\n\nQual **profissão/atividade** você exerce? (para validar a entidade)",
+      "variables": [],
+      "triggers": [
+        "última chance",
+        "escassez",
+        "acaba hoje",
+        "sair de linha"
+      ],
+      "last_updated": "2025-10-31"
+    },
+    {
+      "id": "msg_preciso_pensar",
+      "category": "Follow-up",
+      "title": "Resposta – preciso pensar",
+      "language": "pt-BR",
+      "body_markdown": "Combinado! Só reforço que **plano é para antes de precisar** e essa condição especial é por tempo limitado.  \nSe fez sentido, não deixe para depois. Posso te chamar mais tarde para saber se decidiu ou se quer ver novas opções?",
+      "variables": [],
+      "triggers": [
+        "preciso pensar",
+        "vou pensar",
+        "depois eu vejo"
+      ],
+      "last_updated": "2025-10-31"
+    },
+    {
+      "id": "msg_nao_cobre_minha_cidade",
+      "category": "Objeção",
+      "title": "Sem cobertura na cidade – alternativas",
+      "language": "pt-BR",
+      "body_markdown": "Entendo! Mesmo sem cobertura presencial local, você pode contar com **telemedicina** para consultas e orientações rápidas.  \nTer o plano evita filas da rede pública e custos altos no particular. Se quiser, busco opções com melhor abrangência.",
+      "variables": [],
+      "triggers": [
+        "não cobre minha cidade",
+        "sem cobertura",
+        "cidade não atendida"
+      ],
+      "last_updated": "2025-10-31"
+    },
+    {
+      "id": "msg_cliente_aprovado",
+      "category": "Onboarding",
+      "title": "Aprovado! Próximos passos e regras de pagamento",
+      "language": "pt-BR",
+      "body_markdown": "**Boas‑vindas!** Em até 24h você recebe por e‑mail: confirmação da matrícula + login do aplicativo.  \nNo app: carteirinha digital, rede credenciada, autorizações e histórico.\n\n**Pagamentos e cancelamento:**  \n- Atraso **suspende** o uso até regularizar.  \n- Atraso de **60 dias/12 meses** → **cancelamento automático**.  \n- Cancelamento por pedido do cliente ou por fraude/alta sinistralidade (empresarial).\n\nDicas: ative lembretes/débito, mantenha contato atualizado e, se necessário, fale conosco **antes** do prazo.",
+      "variables": [],
+      "triggers": [
+        "aprovado",
+        "deu certo",
+        "como usar app",
+        "carteirinha digital"
+      ],
+      "last_updated": "2025-10-31"
+    },
+    {
+      "id": "msg_plano_funcionarios",
+      "category": "B2B",
+      "title": "Plano para colaboradores (sem custo para a empresa)",
+      "language": "pt-BR",
+      "body_markdown": "Você pode **oferecer o benefício** sem custo para a instituição:  \n- Desconto em folha; valores até **40% menores** que PF.  \n- Todos os colaboradores podem aderir.  \n- Reforça imagem, cuidado e produtividade.\n\nPosso montar a proposta e os materiais de divulgação interna.",
+      "variables": [],
+      "triggers": [
+        "plano para funcionários",
+        "empresa sem custo",
+        "benefício colaboradores"
+      ],
+      "last_updated": "2025-10-31"
+    },
+    {
+      "id": "msg_dados_contrato",
+      "category": "Processo",
+      "title": "Dados e documentos para contratar",
+      "language": "pt-BR",
+      "body_markdown": "**Pessoais:** RG/CNH (frente/verso), comprovante de endereço, e‑mail e telefone.  \n**Dependentes/crianças:** certidão + CPF; até 9 anos → entrevista médica online; 12+ com documento com foto.  \n**Fluxo:** após pagar a adesão, o plano ativa em **até 24h**. O processo é 100% online.",
+      "variables": [],
+      "triggers": [
+        "documentos",
+        "assinar contrato",
+        "o que precisa enviar"
+      ],
+      "last_updated": "2025-10-31"
+    },
+    {
+      "id": "msg_docs_adesao",
+      "category": "Processo",
+      "title": "Documentação – Plano Coletivo por Adesão",
+      "language": "pt-BR",
+      "body_markdown": "Envie: selfie (prova de vida), RG/CNH, Cartão do SUS, comprovante de endereço, documento da categoria (contracheque/diploma/carteira associativa), ficha associativa assinada.  \nHaverá **entrevista médica** rápida por vídeo. Você recebe o link no momento certo.",
+      "variables": [],
+      "triggers": [
+        "documentação adesão",
+        "coletivo por adesão docs"
+      ],
+      "last_updated": "2025-10-31"
+    },
+    {
+      "id": "msg_declaracao_saude",
+      "category": "Processo",
+      "title": "Como preencher a Declaração de Saúde",
+      "language": "pt-BR",
+      "body_markdown": "A declaração pergunta sobre **doenças, cirurgias, tratamentos** e **uso contínuo de medicação**.  \n- Se **NÃO** teve, marque **NÃO** e siga.  \n- Se marcar **SIM**, haverá **entrevista médica presencial** (processo pode levar mais tempo).  \n- Sintomas leves e eventuais (dor de cabeça, cólica, sinusite, febre ocasional) **não** precisam constar.\n\nResponda com calma, seja verdadeiro e direto. Em caso de dúvida, fale comigo **antes** de enviar.  \nSe **IMC > 30**, podem exigir entrevista.",
+      "variables": [],
+      "triggers": [
+        "declaração de saúde",
+        "DLP",
+        "questionário saúde",
+        "entrevista médica"
+      ],
+      "last_updated": "2025-10-31"
+    },
+    {
+      "id": "msg_recebidos_backoffice",
+      "category": "Interno",
+      "title": "Docs recebidos – encaminhado ao back‑office",
+      "language": "pt-BR",
+      "body_markdown": "Perfeito! Recebemos sua documentação. A **Iana Cortez** (Supervisora back‑office) dará sequência.  \nSe surgir alguma dúvida, ela chama no WhatsApp **(86) 99964‑20424**.",
+      "variables": [],
+      "triggers": [
+        "recebeu documentos",
+        "próximos passos doc",
+        "backoffice"
+      ],
+      "last_updated": "2025-10-31"
+    },
+    {
+      "id": "msg_pos_assinatura",
+      "category": "Follow-up",
+      "title": "Agradecimento e indicações",
+      "language": "pt-BR",
+      "body_markdown": "Obrigado pela confiança! Quando precisar, me chame por aqui.  \nSe puder, compartilhe meu WhatsApp: **https://wa.me/5586994219431**  \nE acompanhe no Instagram: **@jordanhumana** – sempre posto dicas de uso do plano.",
+      "variables": [],
+      "triggers": [
+        "obrigado",
+        "finalizar",
+        "indicações",
+        "instagram"
+      ],
+      "last_updated": "2025-10-31"
+    },
+    {
+      "id": "msg_plano_odontologico",
+      "category": "FAQ",
+      "title": "Plano Odontológico (para quem já tem plano Humana)",
+      "language": "pt-BR",
+      "body_markdown": "🦷 **Plano Odontológico Completo – R$ 23,73** (para quem já possui plano Humana).\n\n**Carências:**  \n• Urgências: 24h  \n• Consultas/Prevenção/Restaurações: 30 dias  \n• Cirurgias/Periodontia: 60 dias  \n• Canal (Endodontia): 90 dias\n\nPergunte-me como aderir ao seu CPF.",
+      "variables": [],
+      "triggers": [
+        "odontológico",
+        "odonto",
+        "dentista",
+        "plano dental"
+      ],
+      "last_updated": "2025-10-31"
+    }
+  ],
+  "intents": [
+    {
+      "intent_id": "ask_diferencas_planos",
+      "description": "Diferenças PF/PJ/Adesão",
+      "triggers": "diferença plano; PF; PJ; adesão; individual; empresarial",
+      "response_id": "msg_planos_diferencas"
+    },
+    {
+      "intent_id": "ask_coparticipacao",
+      "description": "Como funciona a coparticipação",
+      "triggers": "coparticipação; básica; completa; taxas",
+      "response_id": "msg_coparticipacao"
+    },
+    {
+      "intent_id": "ask_reajustes",
+      "description": "Reajustes anuais/faixa etária",
+      "triggers": "reajuste; ans; aumenta; 2025",
+      "response_id": "msg_reajustes_2025"
+    },
+    {
+      "intent_id": "ask_carencia",
+      "description": "Carências por cobertura",
+      "triggers": "carência; quando usar; parto; liberar",
+      "response_id": "msg_carencias"
+    },
+    {
+      "intent_id": "ask_preexistencia",
+      "description": "Cobertura de doença preexistente",
+      "triggers": "preexistente; condição existente; tenho doença",
+      "response_id": "msg_preexistencia"
+    },
+    {
+      "intent_id": "ask_plano_familiar",
+      "description": "Se existe plano familiar",
+      "triggers": "plano familiar; família; filhos",
+      "response_id": "msg_plano_familiar"
+    },
+    {
+      "intent_id": "do_cancelamento",
+      "description": "Processo de cancelamento",
+      "triggers": "cancelar; cancelamento; encerrar plano",
+      "response_id": "msg_cancelamento"
+    },
+    {
+      "intent_id": "add_bebe",
+      "description": "Incluir bebê dependente",
+      "triggers": "incluir bebê; dependente; recém-nascido",
+      "response_id": "msg_inclusao_bebe"
+    },
+    {
+      "intent_id": "get_contatos",
+      "description": "Canais oficiais/guia médico",
+      "triggers": "contato; telefone; guia médico; 2a via",
+      "response_id": "msg_contatos_oficiais"
+    },
+    {
+      "intent_id": "scarcity_push",
+      "description": "Última chance",
+      "triggers": "última chance; acaba hoje; sair de linha",
+      "response_id": "msg_escassez"
+    },
+    {
+      "intent_id": "need_time",
+      "description": "Cliente precisa pensar",
+      "triggers": "preciso pensar; depois eu vejo",
+      "response_id": "msg_preciso_pensar"
+    },
+    {
+      "intent_id": "no_coverage_city",
+      "description": "Plano não cobre cidade",
+      "triggers": "não cobre; sem cobertura; minha cidade",
+      "response_id": "msg_nao_cobre_minha_cidade"
+    },
+    {
+      "intent_id": "onboarding_approved",
+      "description": "Cliente aprovado pós-assinatura",
+      "triggers": "aprovado; carteirinha; app; login",
+      "response_id": "msg_cliente_aprovado"
+    },
+    {
+      "intent_id": "b2b_employees",
+      "description": "Plano para colaboradores",
+      "triggers": "funcionários; empresa; benefício",
+      "response_id": "msg_plano_funcionarios"
+    },
+    {
+      "intent_id": "contract_docs",
+      "description": "Documentos para contratar",
+      "triggers": "documentos; assinar; enviar; contratação",
+      "response_id": "msg_dados_contrato"
+    },
+    {
+      "intent_id": "adesao_docs",
+      "description": "Docs coletivo por adesão",
+      "triggers": "documentação adesão; entidade; associação",
+      "response_id": "msg_docs_adesao"
+    },
+    {
+      "intent_id": "health_decl",
+      "description": "Declaração de Saúde",
+      "triggers": "declaração de saúde; entrevista médica; DLP",
+      "response_id": "msg_declaracao_saude"
+    },
+    {
+      "intent_id": "docs_received",
+      "description": "Confirmação docs recebidos",
+      "triggers": "recebeu documentos; backoffice",
+      "response_id": "msg_recebidos_backoffice"
+    },
+    {
+      "intent_id": "after_sign",
+      "description": "Agradecimento final e social",
+      "triggers": "obrigado; final; instagram; indicações",
+      "response_id": "msg_pos_assinatura"
+    },
+    {
+      "intent_id": "ask_odonto",
+      "description": "Plano odontológico",
+      "triggers": "odonto; odontológico; dentista",
+      "response_id": "msg_plano_odontologico"
+    }
+  ],
+  "prices": {
+    "pf_vital": [
+      {
+        "product": "Humana Vital PF 200",
+        "obstetricia": "com",
+        "coparticipacao": "completa",
+        "acomodacao": "Apartamento",
+        "faixa": "0-18",
+        "valor": 187.61
+      },
+      {
+        "product": "Humana Vital PF 200",
+        "obstetricia": "com",
+        "coparticipacao": "completa",
+        "acomodacao": "Apartamento",
+        "faixa": "19-23",
+        "valor": 206.02
+      },
+      {
+        "product": "Humana Vital PF 200",
+        "obstetricia": "com",
+        "coparticipacao": "completa",
+        "acomodacao": "Apartamento",
+        "faixa": "24-28",
+        "valor": 230.32
+      },
+      {
+        "product": "Humana Vital PF 200",
+        "obstetricia": "com",
+        "coparticipacao": "completa",
+        "acomodacao": "Apartamento",
+        "faixa": "29-33",
+        "valor": 262.06
+      },
+      {
+        "product": "Humana Vital PF 200",
+        "obstetricia": "com",
+        "coparticipacao": "completa",
+        "acomodacao": "Apartamento",
+        "faixa": "34-38",
+        "valor": 314.81
+      },
+      {
+        "product": "Humana Vital PF 200",
+        "obstetricia": "com",
+        "coparticipacao": "completa",
+        "acomodacao": "Apartamento",
+        "faixa": "39-43",
+        "valor": 382.98
+      },
+      {
+        "product": "Humana Vital PF 200",
+        "obstetricia": "com",
+        "coparticipacao": "completa",
+        "acomodacao": "Apartamento",
+        "faixa": "44-48",
+        "valor": 477.09
+      },
+      {
+        "product": "Humana Vital PF 200",
+        "obstetricia": "com",
+        "coparticipacao": "completa",
+        "acomodacao": "Apartamento",
+        "faixa": "49-53",
+        "valor": 617.26
+      },
+      {
+        "product": "Humana Vital PF 200",
+        "obstetricia": "com",
+        "coparticipacao": "completa",
+        "acomodacao": "Apartamento",
+        "faixa": "54-58",
+        "valor": 816.72
+      },
+      {
+        "product": "Humana Vital PF 200",
+        "obstetricia": "com",
+        "coparticipacao": "completa",
+        "acomodacao": "Apartamento",
+        "faixa": "59+",
+        "valor": 1094.01
+      }
+    ],
+    "pf_sem_obstetricia": [
+      {
+        "product": "Humana PF Municipal",
+        "obstetricia": "sem",
+        "coparticipacao": "completa",
+        "acomodacao": "-",
+        "faixa": "0-18",
+        "valor": 177.19
+      },
+      {
+        "product": "Humana PF Municipal",
+        "obstetricia": "sem",
+        "coparticipacao": "completa",
+        "acomodacao": "-",
+        "faixa": "19-23",
+        "valor": 194.56
+      },
+      {
+        "product": "Humana PF Municipal",
+        "obstetricia": "sem",
+        "coparticipacao": "completa",
+        "acomodacao": "-",
+        "faixa": "24-28",
+        "valor": 217.46
+      },
+      {
+        "product": "Humana PF Municipal",
+        "obstetricia": "sem",
+        "coparticipacao": "completa",
+        "acomodacao": "-",
+        "faixa": "29-33",
+        "valor": 247.41
+      },
+      {
+        "product": "Humana PF Municipal",
+        "obstetricia": "sem",
+        "coparticipacao": "completa",
+        "acomodacao": "-",
+        "faixa": "34-38",
+        "valor": 297.15
+      },
+      {
+        "product": "Humana PF Municipal",
+        "obstetricia": "sem",
+        "coparticipacao": "completa",
+        "acomodacao": "-",
+        "faixa": "39-43",
+        "valor": 361.46
+      },
+      {
+        "product": "Humana PF Municipal",
+        "obstetricia": "sem",
+        "coparticipacao": "completa",
+        "acomodacao": "-",
+        "faixa": "44-48",
+        "valor": 450.25
+      },
+      {
+        "product": "Humana PF Municipal",
+        "obstetricia": "sem",
+        "coparticipacao": "completa",
+        "acomodacao": "-",
+        "faixa": "49-53",
+        "valor": 582.45
+      },
+      {
+        "product": "Humana PF Municipal",
+        "obstetricia": "sem",
+        "coparticipacao": "completa",
+        "acomodacao": "-",
+        "faixa": "54-58",
+        "valor": 770.59
+      },
+      {
+        "product": "Humana PF Municipal",
+        "obstetricia": "sem",
+        "coparticipacao": "completa",
+        "acomodacao": "-",
+        "faixa": "59+",
+        "valor": 1032.19
+      }
+    ],
+    "adesao": [
+      {
+        "product": "CP VITAL Piauí QC CA",
+        "acomodacao": "Coletivo",
+        "faixa": "00-18",
+        "valor": 146.66,
+        "desconto_6m_20pct": 117.33
+      },
+      {
+        "product": "CP SUPERIOR Piauí 200 QC CA",
+        "acomodacao": "Coletivo",
+        "faixa": "00-18",
+        "valor": 220.02,
+        "desconto_6m_20pct": 176.02
+      },
+      {
+        "product": "CP SUPERIOR Piauí 200 QP CA",
+        "acomodacao": "Quarto Privativo",
+        "faixa": "00-18",
+        "valor": 272.55,
+        "desconto_6m_20pct": 218.04
+      },
+      {
+        "product": "CP VITAL Piauí QC CA",
+        "acomodacao": "Coletivo",
+        "faixa": "19-23",
+        "valor": 160.91,
+        "desconto_6m_20pct": 128.73
+      },
+      {
+        "product": "CP SUPERIOR Piauí 200 QC CA",
+        "acomodacao": "Coletivo",
+        "faixa": "19-23",
+        "valor": 241.6,
+        "desconto_6m_20pct": 193.28
+      },
+      {
+        "product": "CP SUPERIOR Piauí 200 QP CA",
+        "acomodacao": "Quarto Privativo",
+        "faixa": "19-23",
+        "valor": 299.4,
+        "desconto_6m_20pct": 239.52
+      },
+      {
+        "product": "CP VITAL Piauí QC CA",
+        "acomodacao": "Coletivo",
+        "faixa": "24-28",
+        "valor": 179.71,
+        "desconto_6m_20pct": 143.77
+      },
+      {
+        "product": "CP SUPERIOR Piauí 200 QC CA",
+        "acomodacao": "Coletivo",
+        "faixa": "24-28",
+        "valor": 270.1,
+        "desconto_6m_20pct": 216.08
+      },
+      {
+        "product": "CP SUPERIOR Piauí 200 QP CA",
+        "acomodacao": "Quarto Privativo",
+        "faixa": "24-28",
+        "valor": 334.83,
+        "desconto_6m_20pct": 267.86
+      },
+      {
+        "product": "CP VITAL Piauí QC CA",
+        "acomodacao": "Coletivo",
+        "faixa": "29-33",
+        "valor": 204.29,
+        "desconto_6m_20pct": 163.43
+      },
+      {
+        "product": "CP SUPERIOR Piauí 200 QC CA",
+        "acomodacao": "Coletivo",
+        "faixa": "29-33",
+        "valor": 307.34,
+        "desconto_6m_20pct": 245.87
+      },
+      {
+        "product": "CP SUPERIOR Piauí 200 QP CA",
+        "acomodacao": "Quarto Privativo",
+        "faixa": "29-33",
+        "valor": 381.13,
+        "desconto_6m_20pct": 304.9
+      },
+      {
+        "product": "CP VITAL Piauí QC CA",
+        "acomodacao": "Coletivo",
+        "faixa": "34-38",
+        "valor": 245.12,
+        "desconto_6m_20pct": 196.1
+      },
+      {
+        "product": "CP SUPERIOR Piauí 200 QC CA",
+        "acomodacao": "Coletivo",
+        "faixa": "34-38",
+        "valor": 369.19,
+        "desconto_6m_20pct": 295.35
+      },
+      {
+        "product": "CP SUPERIOR Piauí 200 QP CA",
+        "acomodacao": "Quarto Privativo",
+        "faixa": "34-38",
+        "valor": 458.03,
+        "desconto_6m_20pct": 366.42
+      },
+      {
+        "product": "CP VITAL Piauí QC CA",
+        "acomodacao": "Coletivo",
+        "faixa": "39-43",
+        "valor": 297.89,
+        "desconto_6m_20pct": 238.31
+      },
+      {
+        "product": "CP SUPERIOR Piauí 200 QC CA",
+        "acomodacao": "Coletivo",
+        "faixa": "39-43",
+        "valor": 449.14,
+        "desconto_6m_20pct": 359.31
+      },
+      {
+        "product": "CP SUPERIOR Piauí 200 QP CA",
+        "acomodacao": "Quarto Privativo",
+        "faixa": "39-43",
+        "valor": 557.45,
+        "desconto_6m_20pct": 445.96
+      },
+      {
+        "product": "CP VITAL Piauí QC CA",
+        "acomodacao": "Coletivo",
+        "faixa": "44-48",
+        "valor": 370.76,
+        "desconto_6m_20pct": 296.61
+      },
+      {
+        "product": "CP SUPERIOR Piauí 200 QC CA",
+        "acomodacao": "Coletivo",
+        "faixa": "44-48",
+        "valor": 559.52,
+        "desconto_6m_20pct": 447.62
+      },
+      {
+        "product": "CP SUPERIOR Piauí 200 QP CA",
+        "acomodacao": "Quarto Privativo",
+        "faixa": "44-48",
+        "valor": 694.66,
+        "desconto_6m_20pct": 555.73
+      },
+      {
+        "product": "CP VITAL Piauí QC CA",
+        "acomodacao": "Coletivo",
+        "faixa": "49-53",
+        "valor": 479.24,
+        "desconto_6m_20pct": 383.39
+      },
+      {
+        "product": "CP SUPERIOR Piauí 200 QC CA",
+        "acomodacao": "Coletivo",
+        "faixa": "49-53",
+        "valor": 723.9,
+        "desconto_6m_20pct": 579.12
+      },
+      {
+        "product": "CP SUPERIOR Piauí 200 QP CA",
+        "acomodacao": "Quarto Privativo",
+        "faixa": "49-53",
+        "valor": 899.06,
+        "desconto_6m_20pct": 719.25
+      },
+      {
+        "product": "CP VITAL Piauí QC CA",
+        "acomodacao": "Coletivo",
+        "faixa": "54-58",
+        "valor": 633.65,
+        "desconto_6m_20pct": 506.92
+      },
+      {
+        "product": "CP SUPERIOR Piauí 200 QC CA",
+        "acomodacao": "Coletivo",
+        "faixa": "54-58",
+        "valor": 957.83,
+        "desconto_6m_20pct": 766.26
+      },
+      {
+        "product": "CP SUPERIOR Piauí 200 QP CA",
+        "acomodacao": "Quarto Privativo",
+        "faixa": "54-58",
+        "valor": 1189.91,
+        "desconto_6m_20pct": 951.93
+      },
+      {
+        "product": "CP VITAL Piauí QC CA",
+        "acomodacao": "Coletivo",
+        "faixa": "59+",
+        "valor": 848.34,
+        "desconto_6m_20pct": 678.67
+      },
+      {
+        "product": "CP SUPERIOR Piauí 200 QC CA",
+        "acomodacao": "Coletivo",
+        "faixa": "59+",
+        "valor": 1283.06,
+        "desconto_6m_20pct": 1026.45
+      },
+      {
+        "product": "CP SUPERIOR Piauí 200 QP CA",
+        "acomodacao": "Quarto Privativo",
+        "faixa": "59+",
+        "valor": 1594.28,
+        "desconto_6m_20pct": 1275.42
+      }
+    ]
+  },
+  "entities": [
+    {
+      "entity_id": "humana_saude",
+      "name": "Humana Saúde",
+      "site": "https://www2.humanasaude.com.br",
+      "whatsapp": "55-86-3221-1000",
+      "ouvidoria": "0800 722 8333",
+      "observacao": "Piauí e regiões listadas"
+    }
+  ],
+  "metadata": {
+    "project": "KB Humana Saúde",
+    "author": "Jordan Moura",
+    "version": "2025-10",
+    "language": "pt-BR",
+    "created_at": "2025-10-31",
+    "description": "Base de conhecimento estruturada para agente de IA responder clientes sobre planos Humana Saúde."
+  }
+}
